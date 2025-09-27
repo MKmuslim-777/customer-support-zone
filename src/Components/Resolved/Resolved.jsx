@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Resolved = ({solved, completeTask}) => {
-    
+const Resolved = ({solved, completeTask, }) => {
+    console.log(completeTask);
     // console.log(task);
     return (
         <div>

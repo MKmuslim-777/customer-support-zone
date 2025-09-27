@@ -42,7 +42,9 @@ function App() {
           </div>
           <div className="md:p-0 px-5">
             <h1 className="text-2xl font-bold mb-1">Task Status</h1>
-            <Tasks inProgressCards={inProgressCards} setInprogressCards={setInprogressCards} inprogress={inprogress} completeTask={completeTask} setCompleteTask={setCompleteTask}></Tasks>
+
+            <Tasks inProgressCards={inProgressCards} setInprogressCards={setInprogressCards} inprogress={inprogress} setInprogress={setInprogress} completeTask={completeTask} setCompleteTask={setCompleteTask}></Tasks>
+
             <h1 className="text-2xl font-bold mb-1 mt-5">Resolved Task</h1>
             <Resolveds inprogress={inprogress} completeTask={completeTask} setCompleteTask={setCompleteTask}></Resolveds>
           </div>

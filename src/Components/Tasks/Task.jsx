@@ -1,13 +1,24 @@
 import React from 'react';
+import "react-toastify/dist/ReactToastify.css";
+import { toast, ToastContainer } from "react-toastify";
 
-const Task = ({progressData, completeTask, setCompleteTask, setInprogressCards, inProgressCards}) => {
+
+const Task = ({progressData, completeTask, setCompleteTask, setInprogressCards, inProgressCards, inprogress, setInprogress}) => {
     // console.log(data);
-    const handleTask = () => {
-        setInprogressCards([...inProgressCards, progressData])
-        setCompleteTask([...completeTask, progressData])
-        progressData.status = "Resolved"
-        console.log(inProgressCards);
 
+    
+    const handleTask = () => {
+        toast("Resolved");
+        setInprogressCards([...inProgressCards, progressData]);
+        console.log(inProgressCards);
+        setCompleteTask([...completeTask, progressData]);
+        console.log(completeTask);
+        progressData.status = "Resolved";
+        const findData = inprogress.find(ele => ele.id == progressData.id);
+        setInprogress([...inprogress, findData])
+        console.log(inprogress);
+        // console.log(findData);
+        // console.log(inProgressCards);
     }
     return (
         <div>

@@ -5,7 +5,7 @@ import bgRight from "../assets/right.png"
 const Count = ({inprogress, completeTask, fetchPromise}) => {
 
     const fetchData = use(fetchPromise)
-    const inprogressData = fetchData.filter((element) => element.status == "In Progress")
+    // const inprogressData = fetchData.filter((element) => element.status == "In Progress")
     // console.log(inprogressData);
     return (
         <div className='container-size grid md:grid-cols-2 mb-[40px] px-[40px] gap-12'>
@@ -15,7 +15,7 @@ const Count = ({inprogress, completeTask, fetchPromise}) => {
                 <img src={bgLeft} alt="" className='md:block hidden' />
                 <div className='flex flex-col justify-center items-center'>
                     <h1 className='text-[20px] font-bold text-white mx-5 w-full'>In-Progress</h1>
-                    <p className='text-white text-[40px] mt-3 font-bold'>{inprogressData.length}</p>
+                    <p className='text-white text-[40px] mt-3 font-bold'>{inprogress.length}</p>
                 </div>
                 <img src={bgRight} alt="" className='md:block hidden'/>
             </div>

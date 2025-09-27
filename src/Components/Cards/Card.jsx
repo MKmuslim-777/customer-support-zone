@@ -2,12 +2,13 @@ import React from "react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { FaCircle } from "react-icons/fa";
+import { BsCalendar2Date } from "react-icons/bs";
 
 const Card = ({ data, setInprogress, inprogress }) => {
   const handleCard = () => {
     toast("In Progress");
     data.status = "In Progress";
-    // setInprogress([...inprogress, data])
+    setInprogress([...inprogress, data])
   };
 
   return (
@@ -18,14 +19,16 @@ const Card = ({ data, setInprogress, inprogress }) => {
       >
         <div className="flex justify-between items-center">
           <h1 className="font-semibold text-[20px]">{data.title}</h1>
-          <p
+          <div
             className={`${
               data.status == "Open"
                 ? "bg-green-200 text-green-800"
                 : "bg-yellow-100 text-yellow-600"
             } font-semibold rounded-2xl px-[16px] py-[5px]`}
-          ><FaCircle />{data.status}
-          </p>
+          ><div className="flex items-center">
+            <FaCircle /><span className="ml-2">{data.status}</span>
+          </div>
+          </div>
         </div>
         <div>
           <p className="text-gray-500">{data.description}</p>
@@ -48,11 +51,14 @@ const Card = ({ data, setInprogress, inprogress }) => {
           </div>
           <div className="flex">
             <p className="text-gray-500 mr-5">{data.customer}</p>
-            <p className="text-gray-500 ">{data.createdAt}</p>
+            <div className="text-gray-500 ">
+              <div className="flex items-center">
+                <BsCalendar2Date /> <span className="ml-2.5">{data.createdAt}</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      <ToastContainer></ToastContainer>
     </div>
   );
 };

@@ -1,6 +1,9 @@
 import React from 'react';
-import { SiFacebook } from "react-icons/si";
+import { FaFacebook } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
+import { FaLinkedin } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
+import { FaRegCopyright } from "react-icons/fa";
 
 const Finis = () => {
     return (
@@ -41,16 +44,38 @@ const Finis = () => {
                 <div className='md:ml-10 md:mt-0 mt-5'>
                     <h2 className='footer-heading'>Social Links</h2>
                     <ul>
-                        <li><a className='anchor'><BsTwitterX /> @CS-Ticket System</a></li>
-                        <li><a className='anchor'>@CS-Ticket System</a></li>
-                        <li><a className='anchor w-full'><SiFacebook/>@CS-Ticket System</a></li>
-                        <li><a className='anchor'>@CS-Ticket System</a></li>
+                        <li><a className='anchor '>
+                            <div className='flex items-center mt-2'>
+                            <BsTwitterX /> <span className='ml-2'>@CS-Ticket System</span>
+                            </div>
+                            </a>
+                        </li>
+                        <li><a className='anchor '>
+                            <div className='flex items-center mt-2'>
+                            <FaLinkedin /> <span  className='ml-2'>@CS-Ticket System</span>
+                            </div>
+                            </a>
+                        </li>
+                        <li><a className='anchor'>
+                            <div className='flex items-center mt-2'>
+                            <FaFacebook /> <span className='ml-2'>@CS-Ticket System</span>
+                            </div>
+                            </a>
+                        </li>
+                        <li><a className='anchor'>
+                            <div className='flex items-center mt-2'>
+                            <IoMdMail /> <span className='ml-2'>support@cst.com</span>
+                            </div>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
-            <p className='copyright text-white flex justify-center py-5'>
-                 {new Date().getFullYear()} CS - Ticket System. All rights reserved.
-            </p>
+            <div className='copyright text-white flex justify-center py-5'>
+                <div className='flex'>
+                    <FaRegCopyright /> <span className='ml-2'>{new Date().getFullYear()} CS - Ticket System. All rights reserved.</span>
+                </div>
+            </div>
         </div>
     );
 };

@@ -2,7 +2,7 @@
   {
     "id": "TCKT-1001",
     "title": "Login issue in the all Device",
-    "description": "User unable to log in after multiple attempts, requires immediate support team investigation.",
+    "description": "User unable to log in after multiple attempts, requires immediate support team investigation and technical analysis to resolve authentication problems across all platforms.",
     "customer": "John Doe",
     "priority": "High Priority",
     "status": "Open",
@@ -11,7 +11,7 @@
   {
     "id": "TCKT-1002",
     "title": "Payment failure in my mobile",
-    "description": "Customer facing repeated errors during checkout payment process, needs urgent investigation.",
+    "description": "Customer facing repeated errors during checkout payment process, needs urgent investigation into transaction failures and payment gateway integration issues on mobile devices.",
     "customer": "Jane Smith",
     "priority": "Medium Priority",
     "status": "In Progress",
@@ -20,8 +20,8 @@
   {
     "id": "TCKT-1003",
     "title": "General system issue",
-    "description": "Placeholder for missing ticket, requires investigation.",
-    "customer": "Unknown Customer",
+    "description": "Placeholder for missing ticket that requires detailed investigation and comprehensive analysis to identify the root cause of this system problem.",
+    "customer": "Honey Blossom",
     "priority": "Medium Priority",
     "status": "Open",
     "createdAt": "12-09-2025"
@@ -29,7 +29,7 @@
   {
     "id": "TCKT-1004",
     "title": "Page loading slow every time",
-    "description": "Main dashboard loading slowly, negatively impacting overall customer user experience.",
+    "description": "Main dashboard loading slowly, negatively impacting overall customer user experience and requiring performance optimization for better responsiveness.",
     "customer": "Emily Davis",
     "priority": "Medium Priority",
     "status": "In Progress",
@@ -38,7 +38,7 @@
   {
     "id": "TCKT-1005",
     "title": "Error 500 on profile update",
-    "description": "Users reporting error 500 when updating profile, needs backend developer assistance.",
+    "description": "Users reporting error 500 when updating profile, needs backend developer assistance to investigate server-side issues and database connectivity problems.",
     "customer": "Chris Johnson",
     "priority": "High Priority",
     "status": "Open",
@@ -47,7 +47,7 @@
   {
     "id": "TCKT-1006",
     "title": "Mobile app crashing",
-    "description": "App crashing on Android during checkout, preventing order completion for users.",
+    "description": "App crashing on Android during checkout, preventing order completion for users and requiring immediate bug fixes and stability improvements.",
     "customer": "Sophia Wilson",
     "priority": "High Priority",
     "status": "In Progress",
@@ -56,8 +56,8 @@
   {
     "id": "TCKT-1007",
     "title": "General application issue",
-    "description": "Placeholder for missing ticket, requires investigation.",
-    "customer": "Unknown Customer",
+    "description": "Placeholder for missing ticket that requires thorough investigation and detailed analysis to identify the specific application functionality problems.",
+    "customer": "Sweet Pea",
     "priority": "Medium Priority",
     "status": "Open",
     "createdAt": "16-09-2025"
@@ -65,7 +65,7 @@
   {
     "id": "TCKT-1008",
     "title": "Cart items disappearing",
-    "description": "Items added to cart disappear after refresh, frustrating customers and reducing sales.",
+    "description": "Items added to cart disappear after refresh, frustrating customers and reducing sales, requiring immediate cart functionality fixes.",
     "customer": "Olivia Anderson",
     "priority": "High Priority",
     "status": "Open",
@@ -74,7 +74,7 @@
   {
     "id": "TCKT-1009",
     "title": "Search engine not working",
-    "description": "Search returns empty results for existing products, requires immediate attention today.",
+    "description": "Search returns empty results for existing products, requires immediate attention today to fix search indexing and query processing issues.",
     "customer": "James Thomas",
     "priority": "Low Priority",
     "status": "In Progress",
@@ -83,8 +83,8 @@
   {
     "id": "TCKT-1010",
     "title": "General checkout issue",
-    "description": "Placeholder for missing ticket, requires investigation.",
-    "customer": "Unknown Customer",
+    "description": "Placeholder for missing ticket that requires comprehensive investigation and detailed analysis of the complete checkout process workflow problems.",
+    "customer": "Sugar Plum",
     "priority": "Medium Priority",
     "status": "Open",
     "createdAt": "19-09-2025"
@@ -92,7 +92,7 @@
   {
     "id": "TCKT-1011",
     "title": "Coupon code working invalid",
-    "description": "Valid coupon codes marked invalid during checkout, system error needs fixing.",
+    "description": "Valid coupon codes marked invalid during checkout, system error needs fixing to ensure proper discount validation and application.",
     "customer": "William Lee",
     "priority": "Low Priority",
     "status": "Open",
@@ -101,7 +101,7 @@
   {
     "id": "TCKT-1012",
     "title": "Refund not processed",
-    "description": "Customer refund not processed within promised timeline, causing repeated complaints.",
+    "description": "Customer refund not processed within promised timeline, causing repeated complaints and requiring immediate payment system review and resolution.",
     "customer": "Ava Clark",
     "priority": "High Priority",
     "status": "In Progress",
@@ -110,8 +110,8 @@
   {
     "id": "TCKT-1013",
     "title": "General support issue",
-    "description": "Placeholder for missing ticket, requires investigation.",
-    "customer": "Unknown Customer",
+    "description": "Placeholder for missing ticket that requires detailed investigation and comprehensive analysis to resolve this customer support-related technical problem.",
+    "customer": "Cupcake",
     "priority": "Medium Priority",
     "status": "Open",
     "createdAt": "22-09-2025"
@@ -119,7 +119,7 @@
   {
     "id": "TCKT-1014",
     "title": "Slow email support",
-    "description": "Delayed responses from support team, taking days to resolve simple issues.",
+    "description": "Delayed responses from support team, taking days to resolve simple issues and requiring process improvements for better customer service.",
     "customer": "Mia Hall",
     "priority": "Low Priority",
     "status": "Open",
@@ -128,7 +128,7 @@
   {
     "id": "TCKT-1015",
     "title": "Incorrect order status",
-    "description": "Order tracking shows wrong delivery updates, confusing customers about package location.",
+    "description": "Order tracking shows wrong delivery updates, confusing customers about package location and requiring immediate tracking system correction and updates.",
     "customer": "Alexander Young",
     "priority": "High Priority",
     "status": "In Progress",

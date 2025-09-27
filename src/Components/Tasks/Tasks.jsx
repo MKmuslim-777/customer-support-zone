@@ -1,9 +1,9 @@
 import React from 'react';
 import Task from './Task'
 
-const Tasks = ({inprogress, setCompleteTask, completeTask, setInprogressCards, inProgressCards}) => {
+const Tasks = ({inprogress, setCompleteTask, completeTask, setInprogressCards, inProgressCards, setInprogress}) => {
     const taskStatusData = inprogress.filter((element) => element.status == "In Progress")
-    // console.log(taskStatusData);
+    // console.log(inprogress);
     
     return (
         <div className='w-full'>
@@ -14,6 +14,8 @@ const Tasks = ({inprogress, setCompleteTask, completeTask, setInprogressCards, i
                     completeTask={completeTask}
                     inProgressCards={inProgressCards}
                     setInprogressCards={setInprogressCards}
+                    inprogress={inprogress}
+                    setInprogress={setInprogress}
                     ></Task>)
             }
             
