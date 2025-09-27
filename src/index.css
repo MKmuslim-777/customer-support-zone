@@ -1,1 +1,14 @@
 @import "tailwindcss";
+@plugin "daisyui";
+
+.anchor{
+    @apply text-gray-400 cursor-pointer font-semibold text-[18px] mb-6;
+}
+
+.footer-heading{
+    @apply font-bold text-[20px] mb-[10px];
+}
+
+.container-size{
+    @apply md:w-[1450px] w-full mx-auto;
+}

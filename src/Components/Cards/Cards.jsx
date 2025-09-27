@@ -1,0 +1,21 @@
+import React, { use } from "react";
+import Card from "./Card";
+
+const Cards = ({ fetchPromise, setInprogress, inprogress }) => {
+
+    const fetchData = use(fetchPromise)
+    const openData = fetchData.filter((element) => element.status == "Open")
+    // console.log(fetchData);
+    // const {id, }
+  return (
+    <div className="grid md:grid-cols-2 gap-5 md:px-0 px-5">
+
+        {
+            openData.map( data => <Card key={data.id} inprogress={inprogress} setInprogress={setInprogress} data={data}></Card>)
+        }
+      
+    </div>
+  );
+};
+
+export default Cards;

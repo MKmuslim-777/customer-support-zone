@@ -1,0 +1,137 @@
+[
+  {
+    "id": "TCKT-1001",
+    "title": "Login issue in the all Device",
+    "description": "User unable to log in after multiple attempts, requires immediate support team investigation.",
+    "customer": "John Doe",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "10-09-2025"
+  },
+  {
+    "id": "TCKT-1002",
+    "title": "Payment failure in my mobile",
+    "description": "Customer facing repeated errors during checkout payment process, needs urgent investigation.",
+    "customer": "Jane Smith",
+    "priority": "Medium Priority",
+    "status": "In Progress",
+    "createdAt": "11-09-2025"
+  },
+  {
+    "id": "TCKT-1003",
+    "title": "General system issue",
+    "description": "Placeholder for missing ticket, requires investigation.",
+    "customer": "Unknown Customer",
+    "priority": "Medium Priority",
+    "status": "Open",
+    "createdAt": "12-09-2025"
+  },
+  {
+    "id": "TCKT-1004",
+    "title": "Page loading slow every time",
+    "description": "Main dashboard loading slowly, negatively impacting overall customer user experience.",
+    "customer": "Emily Davis",
+    "priority": "Medium Priority",
+    "status": "In Progress",
+    "createdAt": "13-09-2025"
+  },
+  {
+    "id": "TCKT-1005",
+    "title": "Error 500 on profile update",
+    "description": "Users reporting error 500 when updating profile, needs backend developer assistance.",
+    "customer": "Chris Johnson",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "14-09-2025"
+  },
+  {
+    "id": "TCKT-1006",
+    "title": "Mobile app crashing",
+    "description": "App crashing on Android during checkout, preventing order completion for users.",
+    "customer": "Sophia Wilson",
+    "priority": "High Priority",
+    "status": "In Progress",
+    "createdAt": "15-09-2025"
+  },
+  {
+    "id": "TCKT-1007",
+    "title": "General application issue",
+    "description": "Placeholder for missing ticket, requires investigation.",
+    "customer": "Unknown Customer",
+    "priority": "Medium Priority",
+    "status": "Open",
+    "createdAt": "16-09-2025"
+  },
+  {
+    "id": "TCKT-1008",
+    "title": "Cart items disappearing",
+    "description": "Items added to cart disappear after refresh, frustrating customers and reducing sales.",
+    "customer": "Olivia Anderson",
+    "priority": "High Priority",
+    "status": "Open",
+    "createdAt": "17-09-2025"
+  },
+  {
+    "id": "TCKT-1009",
+    "title": "Search engine not working",
+    "description": "Search returns empty results for existing products, requires immediate attention today.",
+    "customer": "James Thomas",
+    "priority": "Low Priority",
+    "status": "In Progress",
+    "createdAt": "18-09-2025"
+  },
+  {
+    "id": "TCKT-1010",
+    "title": "General checkout issue",
+    "description": "Placeholder for missing ticket, requires investigation.",
+    "customer": "Unknown Customer",
+    "priority": "Medium Priority",
+    "status": "Open",
+    "createdAt": "19-09-2025"
+  },
+  {
+    "id": "TCKT-1011",
+    "title": "Coupon code working invalid",
+    "description": "Valid coupon codes marked invalid during checkout, system error needs fixing.",
+    "customer": "William Lee",
+    "priority": "Low Priority",
+    "status": "Open",
+    "createdAt": "20-09-2025"
+  },
+  {
+    "id": "TCKT-1012",
+    "title": "Refund not processed",
+    "description": "Customer refund not processed within promised timeline, causing repeated complaints.",
+    "customer": "Ava Clark",
+    "priority": "High Priority",
+    "status": "In Progress",
+    "createdAt": "21-09-2025"
+  },
+  {
+    "id": "TCKT-1013",
+    "title": "General support issue",
+    "description": "Placeholder for missing ticket, requires investigation.",
+    "customer": "Unknown Customer",
+    "priority": "Medium Priority",
+    "status": "Open",
+    "createdAt": "22-09-2025"
+  },
+  {
+    "id": "TCKT-1014",
+    "title": "Slow email support",
+    "description": "Delayed responses from support team, taking days to resolve simple issues.",
+    "customer": "Mia Hall",
+    "priority": "Low Priority",
+    "status": "Open",
+    "createdAt": "23-09-2025"
+  },
+  {
+    "id": "TCKT-1015",
+    "title": "Incorrect order status",
+    "description": "Order tracking shows wrong delivery updates, confusing customers about package location.",
+    "customer": "Alexander Young",
+    "priority": "High Priority",
+    "status": "In Progress",
+    "createdAt": "24-09-2025"
+  }
+]
